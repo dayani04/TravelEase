@@ -1,10 +1,14 @@
+
 const NavItems=({path,name})=>{
     return (
-        <li className="nav-item">
+       <div> <li className="nav-item">
             <a class="nav-link" href={path}>
                 {name}
             </a>
         </li>
+        
+        </div> 
+        
     )
 }
 export default NavItems; 

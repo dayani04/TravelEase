@@ -1,9 +1,9 @@
 import NavItems from "../../atoms/NavItems";
-
+import React from "react";
 const NavBar=()=>{
     return (
         <div>
-          <div class="navbar bg-dark border-bottom border-body"data-bs-theme="dark">
+         <div class="navbar bg-dark border-bottom border-body"data-bs-theme="dark">
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Navbar</a>
@@ -16,8 +16,6 @@ const NavBar=()=>{
              <NavItems name={'Location'} path={'/Location'}/>
              <NavItems name={'Hotel'} path={'/Hotel'}/>
              <NavItems name={'Transpotation'} path={'/Transpotation'}/>
-              
-             
             </ul>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
@@ -28,6 +26,7 @@ const NavBar=()=>{
       </nav>
       </div>
       </div>
-    )
-}
+      )
+      }
+      
 export default NavBar; 

@@ -1,17 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
 import Home from './pages/Home';
-import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import NavItems from './component/atoms/NavItems';
+import NavBar from './component/molecules/NavBar';
+
+
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home/>}/>
-      </Routes>
-      </BrowserRouter>
+      <NavBar/>
+      <Home/>
+      
     </div>
   );
 }
 
 export default App;
+

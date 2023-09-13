@@ -7,6 +7,7 @@ import Footer from './component/molecules/Footer';
 import Location from './pages/Location';
 import Hotel from './pages/Hotel';
 import Transpotation from './pages/Transpotation';
+
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/Location" element={<Location/>}/>
         <Route path="/Hotel" element={<Hotel/>}/>
-        <Route path="/Transpotation" elemnt={<Transpotation/>}/>
+        <Route path="/Transpotation" element={<Transpotation/>}/>
       </Routes>
       </BrowserRouter>
     </div>

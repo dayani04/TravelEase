@@ -16,8 +16,8 @@ const NavBar = () => {
                         <NavItems name={'Home'} path={'/'} />
                         <NavItems name={'Location'} path={'/Location'} />
                         <NavItems name={'Hotel'} path={'/Hotel'} />
-                        <NavItems name={'Transpotation'} path={'/Transpotation'} />
-                        
+                        <NavItems name={'Transpotation'} path={'/Transpotation'}/>
+                    
                     </ul>
                     <form className="d-flex" role="search">
                         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />

@@ -2,7 +2,7 @@ import Footer from "../../component/molecules/Footer";
 import NavBar from "../../component/molecules/NavBar";
 
 const Home = () => {
-    const imageUrl = "https://th.bing.com/th/id/OIP.Yb1Vip3WmZ4DUKrVJajrLgHaE8?pid=ImgDet&w=474&h=316&rs=1" // Replace this with your actual image URL
+    const imageUrl = "https://i.pinimg.com/564x/21/19/52/211952d685301f73a1d0e9485b60552e.jpg" // Replace this with your actual image URLhttps://i.pinimg.com/564x/21/19/52/211952d685301f73a1d0e9485b60552e.jpg
 
     return (
         <div className="HomePagePicture"> <NavBar/> 

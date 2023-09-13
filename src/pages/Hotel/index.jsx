@@ -1,8 +1,16 @@
-const Hotel= () => {
+import Footer from "../../component/molecules/Footer";
+import NavBar from "../../component/molecules/NavBar";
+
+const Hotel = () => {
+    
+    
     return (
-        <div className="Location">
-           Hello world
+        <div className="HomePagePicture"> <NavBar/> 
+
+            
+            <Footer/>
         </div>
+    
     );
 }
 

@@ -1,7 +1,8 @@
-const Transpotation = () => {
+import NavBar from "../../component/molecules/NavBar";
+const Transpotation= () => {
     return (
-        <div className="Location">
-           Hello world
+        <div className="Transpotation">
+           <NavBar/>
         </div>
     );
 }

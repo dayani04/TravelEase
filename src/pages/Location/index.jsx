@@ -1,7 +1,8 @@
+import NavBar from "../../component/molecules/NavBar";
 const Location = () => {
     return (
         <div className="Location">
-           Hello world
+           <NavBar/>
         </div>
     );
 }

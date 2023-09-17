@@ -1,7 +1,8 @@
+import NavBar from "../../component/molecules/NavBar";
 const Hotel= () => {
     return (
-        <div className="Location">
-           Hello world
+        <div className="Hotel">
+           <NavBar/>
         </div>
     );
 }

@@ -6,7 +6,7 @@ const Home = () => {
 
     return (
         <div className="HomePagePicture"> <NavBar/> 
-            <img src={imageUrl} className="img-fluid" alt="Travel" width="800" height="800" />
+            <img src={imageUrl} className="img-fluid" alt="Travel" width="500" height="500" />
             <Footer/>
         </div>
     

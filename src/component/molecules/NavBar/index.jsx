@@ -14,7 +14,7 @@ const NavBar = () => {
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 
                         <NavItems name={'Home'} path={'/'} />
-                        <NavItems name={'Location'} path={'/Location'} />
+                        <NavItems name={'Location'} path={'/Location'} />  
                         <NavItems name={'Hotel'} path={'/Hotel'} />
                         <NavItems name={'Transpotation'} path={'/Transpotation'} />
                         

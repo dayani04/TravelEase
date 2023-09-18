@@ -1,15 +1,4 @@
-<<<<<<< HEAD
-import'./index.css';
-=======
-import NavBar from "../../component/molecules/NavBar";
-const Hotel= () => {
-    return (
-        <div className="Hotel">
-           <NavBar/>
-        </div>
-    );
-}
->>>>>>> a2525fe110b4364a92ff533b3efdcb6f914ce0da
+
 
 const Hotel=()=>{
     return(

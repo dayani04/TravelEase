@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-import Footer from "../../component/molecules/Footer";
-import NavBar from "../../component/molecules/NavBar";
 
-=======
-import NavBar from "../../component/molecules/NavBar";
->>>>>>> a2525fe110b4364a92ff533b3efdcb6f914ce0da
 const Location = () => {
     const imageUrl = "https://www.spendlifetraveling.com/wp-content/uploads/2019/02/must_visit_places_sri_lanka_sigiriya.jpg"
     const imageUrl1 = "https://www.tourism-of-india.com/blog/wp-content/uploads/2022/03/Colombo-srilanka.png"
@@ -18,8 +12,8 @@ const Location = () => {
     const imageUrl9 = "https://www.lovesrilanka.org/wp-content/uploads/2020/04/Jaffna-Library-1200.jpg"
 
     return (
-<<<<<<< HEAD
-        <div className="HomePagePicture"> <NavBar/> 
+
+        <div className="HomePagePicture"> 
             <img src={imageUrl} className="img-fluid" alt="Sigiriya" width="50" height="50" />
             <img src={imageUrl1} className="img-fluid" alt="Colombo" width="50" height="50" />
             <img src={imageUrl2} className="img-fluid" alt="Mirissa" width="50" height="50" />
@@ -30,11 +24,7 @@ const Location = () => {
             <img src={imageUrl7} className="img-fluid" alt="Anuradapuraya" width="50" height="50" />
             <img src={imageUrl8} className="img-fluid" alt="Polonnaruwa" width="50" height="50" />
             <img src={imageUrl9} className="img-fluid" alt="Jaffna" width="50" height="50" />
-            <Footer/>
-=======
-        <div className="Location">
-           <NavBar/>
->>>>>>> a2525fe110b4364a92ff533b3efdcb6f914ce0da
+
         </div>
     
     );

@@ -7,10 +7,9 @@ const Home = () => {
     console.log("Welcome to our web page");
     return (
         <div className="HomePagePicture"> <NavBar/> 
-<<<<<<< HEAD
 
-=======
->>>>>>> a2525fe110b4364a92ff533b3efdcb6f914ce0da
+
+
             <img src={imageUrl} className="img-fluid" alt="Travel" width="500" height="500" />
             <Footer/>
         </div>

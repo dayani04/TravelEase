@@ -1,6 +1,4 @@
 
-import Footer from "../../component/molecules/Footer";
-import NavBar from "../../component/molecules/NavBar";
 
 const Location = () => {
     const imageUrl = "https://www.spendlifetraveling.com/wp-content/uploads/2019/02/must_visit_places_sri_lanka_sigiriya.jpg"
@@ -16,7 +14,7 @@ const Location = () => {
 
     return (
  
-        <div className="HomePagePicture"> <NavBar/> 
+        <div className="HomePagePicture"> 
             <img src={imageUrl} className="img-fluid" alt="Sigiriya" width="50" height="50" />
             <img src={imageUrl1} className="img-fluid" alt="Colombo" width="50" height="50" />
             <img src={imageUrl2} className="img-fluid" alt="Mirissa" width="50" height="50" />

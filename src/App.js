@@ -8,6 +8,7 @@ import Location from './pages/Location';
 import Hotel from './pages/Hotel';
 import Transpotation from './pages/Transpotation';
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
+
 function App() {
   return (
     <div className="container">

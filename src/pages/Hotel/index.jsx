@@ -1,6 +1,6 @@
+
+import './index.css';
 import NavBar from "../../component/molecules/NavBar";
-
-
 const Hotel=()=>{
     return(
       <div> <NavBar/> <br/> <br/>

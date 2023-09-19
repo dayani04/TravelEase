@@ -1,3 +1,4 @@
+import Footer from '../../component/molecules/Footer';
 import NavBar from '../../component/molecules/NavBar';
 import'./index.css';
 
@@ -42,6 +43,7 @@ const Transpotation = () => {
     </div>
   </div>
 </div>
+<Footer/>
 </div>
         
     );

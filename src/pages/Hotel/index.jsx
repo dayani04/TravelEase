@@ -3,6 +3,7 @@
 import'./index.css';
 
 import NavBar from "../../component/molecules/NavBar";
+import Footer from '../../component/molecules/Footer';
 
 
 
@@ -47,6 +48,7 @@ const Hotel=()=>{
           </div>
         </div>
       </div>
+      <Footer/>
       </div>
 
     )

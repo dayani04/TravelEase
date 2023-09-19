@@ -9,9 +9,11 @@ const Home = () => {
         <div className="HomePagePicture"> <NavBar/> 
 
             <img src={imageUrl} className="img-fluid" alt="Travel" width="500" height="500" />
-    <Footer/>
+            <br />
+            
+<Footer/>
         </div>
-    
+
     );
 }
 

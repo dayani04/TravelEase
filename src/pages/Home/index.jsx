@@ -2,6 +2,7 @@ import Footer from "../../component/molecules/Footer";
 import NavBar from "../../component/molecules/NavBar";
 
 const Home = () => {
+
    
     return (
         <div className="HomePagePicture"> <NavBar/> 
@@ -49,6 +50,7 @@ const Home = () => {
 </div>
 
         </div>
+
 
     );
 }

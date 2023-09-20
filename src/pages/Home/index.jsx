@@ -6,8 +6,10 @@ const Home = () => {
     const imageUrl = "https://i.pinimg.com/564x/21/19/52/211952d685301f73a1d0e9485b60552e.jpg" 
     return (
         <div className="HomePagePicture"> <NavBar/> 
-            <img src={imageUrl} className="img-fluid" alt="Travel" width="500" height="500" />  
-            <Footer />
+
+            <img src={imageUrl} className="img-fluid" alt="Travel" width="500" height="500" />
+    <Footer/>
+
         </div>
     );
 }

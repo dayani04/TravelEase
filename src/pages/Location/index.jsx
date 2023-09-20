@@ -2,10 +2,10 @@
 import NavBar from "../../component/molecules/NavBar"
 import'./index.css';
 import Footer from "../../component/molecules/Footer";
-const Transpotation = () => {
+const Location = () => {
     return (
-      <div> <NavBar/> <br /> <br />
-       <h1>SELECT YOUR AMAZING TRAVEL LOCATION</h1>
+      <div> <NavBar/> <br /><br />
+      <h1>SELECT YOUR AMAZING TRAVEL LOCATION</h1>
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card">
@@ -127,7 +127,7 @@ const Transpotation = () => {
       </div>
     </div>
   </div>
-<Footer />
+<Footer/>
 </div>
 </div>
         
@@ -135,4 +135,4 @@ const Transpotation = () => {
     );
 }
 
-export default Transpotation;
+export default Location;

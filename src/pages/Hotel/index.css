@@ -17,3 +17,10 @@
 .Hotel{
     align-content: center;
 }
+.custom-form {
+    width: 600px; 
+    border: 3px solid black; 
+    padding: 20px; 
+    margin: left; 
+  }
+  

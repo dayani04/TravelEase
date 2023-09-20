@@ -1,8 +1,10 @@
 import Footer from "../../component/molecules/Footer";
 import NavBar from "../../component/molecules/NavBar";
+
 const Home = () => {
+   
     return (
-    
+        <div className="HomePagePicture"> <NavBar/> 
 <div id="carouselExampleDark" class="carousel carousel-dark slide">
     <NavBar/> <br /> <br />
   <div class="carousel-indicators">
@@ -46,6 +48,10 @@ const Home = () => {
   <Footer/>
 </div>
 
+        </div>
+
     );
 }
+
 export default Home;
+

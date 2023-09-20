@@ -1,10 +1,12 @@
+
 import NavBar from "../../component/molecules/NavBar"
 import'./index.css';
 import Footer from "../../component/molecules/Footer";
 const Location = () => {
     return (
-      <div> <NavBar/> <br /> <br />
-       <h1>SELECT YOUR AMAZING TRAVEL LOCATION</h1>
+      <div> <NavBar/> <br /><br />
+      <h1>SELECT YOUR AMAZING TRAVEL LOCATION</h1>
+
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card">
@@ -126,10 +128,12 @@ const Location = () => {
         <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
-    </div>
-<Footer />
+
+  </div>
+<Footer/>
 </div>
 </div>
     );
 }
+
 export default Location;

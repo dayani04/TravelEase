@@ -1,26 +1,30 @@
 import Footer from '../../component/molecules/Footer';
 import './index.css';
 import NavBar from "../../component/molecules/NavBar";
+
 const Hotel=()=>{
     return(
+
+
       <div> <NavBar/> <br/> <br/>
       <div class="row row-cols-1 row-cols-md-3 g-4">
-      <div class="col">
+        <div class="col">
           <div class="card">
-          <img src="https://media-cdn.tripadvisor.com/media/photo-s/0d/7b/b0/00/sigiriya-village-hotel.jpg" class="card-img-top" alt="..."/>
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/0d/7b/b0/00/sigiriya-village-hotel.jpg" class="card-img-top" alt="..."/>
             <div class="card-body">
-          <h5 class="card-title">SIGIRIYA -Village Hotel</h5>
+              <h5 class="card-title">SIGIRIYA -Village Hotel</h5>
               <p class="card-text">A village-themed hotel in the heart of Sri Lanka's Cultural Triangle, tucked away in peaceful tranquillity under the shade of the majestic Sigiriya Rock Fortress.<li> Price range: Prices for upcoming dates starts at $45 per night</li></p>
             </div>
           </div>
-          </div>
+        </div>
+
         <div class="col">
           <div class="card">
             <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/403038116.jpg?k=c92f9231294303d65c1551cd4424e3154256c5f79ae7b8b2f998984973b0cfef&o=&hp=1" class="card-img-top" alt="..."/>
             <div class="card-body">
               <h5 class="card-title">SIGIRIYA - Water Cottage</h5>
-              <p class="card-text"> Sigiriya Water Cottage is nestled in the very heart of Sigiriya, 25 minutes' walk of Sigiriya Craft Village. Featuring lake views, the rooms come with an electric kettle and glassware as well as with access to a sunbathing terrace.<li> Price range: Prices for upcoming dates start at $57 per night (We Price Match)</li></p>
-           </div>
+              <p class="card-text"> Sigiriya Water Cottage is nestled in the very heart of Sigiriya, 25 minutes' walk of Sigiriya Craft Village. Featuring lake views, the rooms come with an electric kettle and glassware as well as with access to a sunbathing terrace.<li>Price range: Prices for upcoming dates start at $57 per night (We Price Match)</li></p>
+            </div>
           </div>
         </div>
         <div class="col">
@@ -30,8 +34,8 @@ const Hotel=()=>{
               <h5 class="card-title">SIGIRIYA - Nature Resort</h5>
               <p class="card-text"> Hotel Sigiriya Nature Resort is located at Near The police station Sigiriya, road in Sigiriya in 2.3 km from the centre.<li> Price range: Prices for upcoming dates starts at $50 for day</li></p>
             </div>
-            </div>
           </div>
+        </div>
         <div class="col">
           <div class="card">
             <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/91/34/0b/the-kingsbury-exterior.jpg?w=700&h=-1&s=1" class="card-img-top" alt="..."/>
@@ -39,8 +43,10 @@ const Hotel=()=>{
               <h5 class="card-title">COLOMBO - The Kingsbury</h5>
               <p class="card-text">The Kingsbury, Colombo features 229 beautiful rooms & suites providing a sleep sanctuary, with views of the Indian Ocean and the Port City.<li> Price range: Prices for upcoming dates starts at $70 per day</li></p>
             </div>
+
+            </div>
           </div>
-        </div>
+
         <div class="col">
           <div class="card">
             <img src="https://www.een.com/wp-content/uploads/2020/12/hilton-bldg.jpg" class="card-img-top" alt="..."/>
@@ -300,23 +306,89 @@ const Hotel=()=>{
               <h5 class="card-title">TRINCOMALEE -boutique hotel </h5>
               <p class="card-text"></p>
             </div>
-            </div>
           </div>
-        <div>
-        <form class="row g-3">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" /><br />
-        <label for="email">E-Mail:</label>
-        <input type="text" id="email" name="email" /><br />
-        <label for="Msg">Message:</label>
-        <input type="text" id="Msg" name="Msg" /><br />
-        <input type="submit" value="Submit" />
-      </form>
-      </div>
-      <Footer />
-      </div>
-      </div>
-      
+        </div>
+      <br />
+      <br />
+      <form class="custom-form">
+<div class="mb-3">
+  <label for="exampleInputEmail1" class="form-label">Email address</label>
+  <input type="email" class="form-control custom-input-width" id="exampleInputEmail1" aria-describedby="emailHelp"placeholder="Enter your Email"/>
+  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+</div>
+<div class="mb-3">
+<label for="disabledSelect" class="form-label">Select the Hotel</label>
+<select id="disabledSelect" class="form-select custom-select-width">
+  <option>Select Your Hotel</option>
+  <option>------SIGIRIYA------</option>
+  <option>SIGIRIYA - Village Hotel</option>
+  <option>SIGIRIYA - Water Cottage</option>
+  <option>SIGIRIYA - Nature Resort</option>
+  <option>------COLOMBO------</option>
+  <option>COLOMBO - The Kingsbury</option>
+  <option>COLOMBO - Hillton</option>
+  <option>COLOMBO - Galadari</option>
+  <option>------MIRISSA------</option>
+  <option>MIRISSA - River Inn</option>
+  <option>MIRISSA - Deep Blue</option>
+  <option>MIRISSA - Marino</option>
+  <option>------KANDY------</option>
+  <option>KANDY - The Kandyan</option>
+  <option>KANDY - Mount Blue</option>
+  <option>KANDY - Tower Inn</option>
+  <option>------GALLE------</option>
+  <option>GALLE - Old Dutch House</option>
+  <option>GALLE - Amari</option>
+  <option>GALLE - Jetwing</option>
+  <option>------BADULLA------</option>
+  <option>BADULLA - Heritage Resort</option>
+  <option>BADULLA - City View</option>
+  <option>BADULLA - Mount View</option>
+  <option>------MATARA------</option>
+  <option>MATARA - mandara Resort</option>
+  <option>MATARA - Pearl  Resort</option>
+  <option>MATARA - Deep Blue</option>
+  <option>------POLONNARUWA------</option>
+  <option>POLONNARUWA - The Lake Hotel</option>
+  <option>POLONNARUWA - Home Guest</option>
+  <option>POLONNARUWA - Lakes Edge</option>
+  <option>------NUWARA ELIYA------</option>
+  <option>NUWARA ELIYA - H2O Lakeside</option>
+  <option>NUWARA ELIYA - Vibe Way</option>
+  <option>NUWARA ELIYA - Victoriya</option>
+  <option>------JAFFNA------</option>
+  <option>JAFFNA - Valampuri</option>
+  <option>JAFFNA - Yarl Mercury</option>
+  <option>JAFFNA - D'Villa Garden</option>
+  <option>------TRINCOMALEE------</option>
+  <option>TRINCOMALEE - Resort Maya</option>
+  <option>TRINCOMALEE - The Tottam Beach Hotel</option>
+  <option>TRINCOMALEE - boutique hotel</option>
+  <br />
+</select>
+</div>
+
+<div class="mb-3">
+  <label for="nameInput" class="form-label">Number of Days stay the hotel</label>
+  <input type="text" class="form-control custom-input-width" id="nameInput" aria-describedby="nameHelp" placeholder="Enter your Days"/>
+</div>
+
+<div class="mb-3">
+<label for="disabledSelect" class="form-label">Payment Method</label>
+<select id="disabledSelect" class="form-select custom-select-width">
+  <option><b>Select Your Payment Methode</b></option>
+  <option>E Pay</option>
+  <option>Card Payment</option>
+</select>
+<br /><br />
+<button type="button" class="btn btn-primary">Submit</button>
+</div>
+</form>
+      <br />
+      <br />
+      <Footer/>
+</div>
+</div>
     )
 }
 export default Hotel;

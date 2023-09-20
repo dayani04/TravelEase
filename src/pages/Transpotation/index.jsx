@@ -1,12 +1,14 @@
 import React from 'react';
 import NavBar from '../../component/molecules/NavBar';
 import './index.css';
+import Footer from '../../component/molecules/Footer';
 
 const Transportation = () => {
   return (
     <div>
       <NavBar />
       <br /><br />
+      
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
           <div class="card">
@@ -152,19 +154,47 @@ const Transportation = () => {
           </div>
         </div>
       </div>
+      <br /> <br />
+      <form class="custom-form">
+<div class="mb-3">
+  <label for="exampleInputEmail1" class="form-label">Email address</label>
+  <input type="email" class="form-control custom-input-width" id="exampleInputEmail1" aria-describedby="emailHelp"placeholder="Enter your Email"/>
+  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+</div>
+<div class="mb-3">
+<label for="disabledSelect" class="form-label">Select the Transpotation</label>
+<select id="disabledSelect" class="form-select custom-select-width">
+  <option>Select Your Transpotation</option>
+  <option>01</option>
+  <option>02</option>
+  <option>03</option>
+  <option>04</option>
+  <option>05</option>
+  <option>06</option>
+  
+  <br />
+</select>
+</div>
 
-    
-      <form class="row g-3">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" /><br />
-        <label for="email">E-Mail:</label>
-        <input type="text" id="email" name="email" /><br />
-        <label for="Msg">Message:</label>
-        <input type="text" id="Msg" name="Msg" /><br />
-        <input type="submit" value="Submit" />
-      </form>
+<div class="mb-3">
+  <label for="nameInput" class="form-label">Number of Days stay the </label>
+  <input type="text" class="form-control custom-input-width" id="nameInput" aria-describedby="nameHelp" placeholder="Enter your Days"/>
+</div>
+
+<div class="mb-3">
+<label for="disabledSelect" class="form-label">Payment Method</label>
+<select id="disabledSelect" class="form-select custom-select-width">
+  <option><b>Select Your Payment Methode</b></option>
+  <option>E Pay</option>
+  <option>Card Payment</option>
+</select>
+<br /><br />
+<button type="button" class="btn btn-primary">Submit</button>
+</div>
+</form>
+<br /> <br />
+<Footer/>
     </div>
   );
 }
-
 export default Transportation;

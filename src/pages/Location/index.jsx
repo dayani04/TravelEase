@@ -4,12 +4,15 @@ import'./index.css';
 import Footer from "../../component/molecules/Footer";
 const Location = () => {
     return (
+
       <div> <NavBar/> <br /><br />
       <h1>SELECT YOUR AMAZING TRAVEL LOCATION</h1>
+
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card">
       <img src="https://www.spendlifetraveling.com/wp-content/uploads/2019/02/must_visit_places_sri_lanka_sigiriya.jpg" class="card-img-top" alt="..."/>
+
       <div class="card-body">
         <h5 class="card-title">SIGIRIYA</h5>
         <p class="card-text">Sigiriya, a UNESCO World Heritage site in Sri Lanka, is an ancient rock fortress with breathtaking frescoes and a lion-shaped gateway, constructed in the 5th century by King Kasyapa.</p>
@@ -126,13 +129,11 @@ const Location = () => {
         <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
-  </div>
-<Footer/>
-</div>
-</div>
-        
 
+    </div>
+<Footer />
+</div>
+</div>
     );
 }
-
 export default Location;

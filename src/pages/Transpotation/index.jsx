@@ -4,10 +4,16 @@ import './index.css';
 import Footer from '../../component/molecules/Footer';
 
 const Transportation = () => {
+  // Define the showAlert function within the component
+  const showAlert = () => {
+    alert("Your form has been submitted.");
+  };
+
   return (
-    <div>
+   <div>
       <NavBar />
       <br /><br />
+      <h1>SELECT YOUR VEHICLE</h1>
       
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
@@ -189,9 +195,12 @@ const Transportation = () => {
   <option>Card Payment</option>
 </select>
 <br /><br />
-<button type="button" class="btn btn-primary">Submit</button>
+<button type="button" className="btn btn-primary" onClick={showAlert}>
+Submit
+ </button>
 </div>
 </form>
+
 <br /> <br />
 <Footer/>
     </div>

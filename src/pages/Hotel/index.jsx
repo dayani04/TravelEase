@@ -1,7 +1,12 @@
 import Footer from '../../component/molecules/Footer';
 import './index.css';
 import NavBar from "../../component/molecules/NavBar";
-const Hotel=()=>{
+const Hotel = () => {
+ 
+  const showAlert = () => {
+    alert("Your form has been submitted.");
+  };
+
     return(
       <div> <NavBar/> <br/> <br/>
       <h1> SELECT YOUR HOTEL </h1>
@@ -377,7 +382,9 @@ const Hotel=()=>{
   <option>Card Payment</option>
 </select>
 <br /><br />
-<button type="button" class="btn btn-primary">Submit</button>
+<button type="button" className="btn btn-primary" onClick={showAlert}>
+Submit
+ </button>
 </div>
 </form>
       <br />

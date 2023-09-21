@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 import Footer from '../../component/molecules/Footer';
 import './index.css';
@@ -18,13 +19,36 @@ const Hotel=()=>{
             </div>
           </div>
         </div>
+=======
+import Footer from '../../component/molecules/Footer';
+import './index.css';
+import NavBar from "../../component/molecules/NavBar";
+const Hotel=()=>{
+    return(
+      <div> <NavBar/> <br/> <br/>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+          <div class="card">
+          <img src="https://media-cdn.tripadvisor.com/media/photo-s/0d/7b/b0/00/sigiriya-village-hotel.jpg" class="card-img-top" alt="..."/>
+            <div class="card-body">
+          <h5 class="card-title">SIGIRIYA -Village Hotel</h5>
+              <p class="card-text">A village-themed hotel in the heart of Sri Lanka's Cultural Triangle, tucked away in peaceful tranquillity under the shade of the majestic Sigiriya Rock Fortress.<li> Price range: Prices for upcoming dates starts at $45 per night</li></p>
+            </div>
+          </div>
+          </div>
+>>>>>>> c9b3865c93055f9b0ea66704b1fa8a9207e6d43a
         <div class="col">
           <div class="card">
             <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/403038116.jpg?k=c92f9231294303d65c1551cd4424e3154256c5f79ae7b8b2f998984973b0cfef&o=&hp=1" class="card-img-top" alt="..."/>
             <div class="card-body">
               <h5 class="card-title">SIGIRIYA - Water Cottage</h5>
+<<<<<<< HEAD
               <p class="card-text"> Sigiriya Water Cottage is nestled in the very heart of Sigiriya, 25 minutes' walk of Sigiriya Craft Village. Featuring lake views, the rooms come with an electric kettle and glassware as well as with access to a sunbathing terrace.<li>Price range: Prices for upcoming dates start at $57 per night (We Price Match)</li></p>
             </div>
+=======
+              <p class="card-text"> Sigiriya Water Cottage is nestled in the very heart of Sigiriya, 25 minutes' walk of Sigiriya Craft Village. Featuring lake views, the rooms come with an electric kettle and glassware as well as with access to a sunbathing terrace.<li> Price range: Prices for upcoming dates start at $57 per night (We Price Match)</li></p>
+           </div>
+>>>>>>> c9b3865c93055f9b0ea66704b1fa8a9207e6d43a
           </div>
         </div>
         <div class="col">
@@ -34,8 +58,13 @@ const Hotel=()=>{
               <h5 class="card-title">SIGIRIYA - Nature Resort</h5>
               <p class="card-text"> Hotel Sigiriya Nature Resort is located at Near The police station Sigiriya, road in Sigiriya in 2.3 km from the centre.<li> Price range: Prices for upcoming dates starts at $50 for day</li></p>
             </div>
+<<<<<<< HEAD
           </div>
         </div>
+=======
+            </div>
+          </div>
+>>>>>>> c9b3865c93055f9b0ea66704b1fa8a9207e6d43a
         <div class="col">
           <div class="card">
             <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/91/34/0b/the-kingsbury-exterior.jpg?w=700&h=-1&s=1" class="card-img-top" alt="..."/>
@@ -43,8 +72,13 @@ const Hotel=()=>{
               <h5 class="card-title">COLOMBO - The Kingsbury</h5>
               <p class="card-text">The Kingsbury, Colombo features 229 beautiful rooms & suites providing a sleep sanctuary, with views of the Indian Ocean and the Port City.<li> Price range: Prices for upcoming dates starts at $70 per day</li></p>
             </div>
+<<<<<<< HEAD
             </div>
           </div>
+=======
+          </div>
+        </div>
+>>>>>>> c9b3865c93055f9b0ea66704b1fa8a9207e6d43a
         <div class="col">
           <div class="card">
             <img src="https://www.een.com/wp-content/uploads/2020/12/hilton-bldg.jpg" class="card-img-top" alt="..."/>
@@ -304,6 +338,7 @@ const Hotel=()=>{
               <h5 class="card-title">TRINCOMALEE -boutique hotel </h5>
               <p class="card-text"></p>
             </div>
+<<<<<<< HEAD
           </div>
         </div>
       <br />
@@ -390,6 +425,25 @@ const Hotel=()=>{
 
       
 
+=======
+            </div>
+          </div>
+        <div>
+        <form class="row g-3">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" /><br />
+        <label for="email">E-Mail:</label>
+        <input type="text" id="email" name="email" /><br />
+        <label for="Msg">Message:</label>
+        <input type="text" id="Msg" name="Msg" /><br />
+        <input type="submit" value="Submit" />
+      </form>
+      </div>
+      <Footer />
+      </div>
+      </div>
+      
+>>>>>>> c9b3865c93055f9b0ea66704b1fa8a9207e6d43a
     )
 }
 export default Hotel;

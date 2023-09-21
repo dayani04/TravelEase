@@ -19,7 +19,7 @@
 .Hotel{
     align-content: center;
 }
-<<<<<<< HEAD
+
 .custom-input-width {
     width: 500px; /* Adjust the width as needed */
   }
@@ -28,15 +28,12 @@
   }
   .custom-form {
     width: 600px; /* Change the width to your preferred value */
-    border: 3px solid black; /* Optional: Add a border for visual reference */
+    border: 5px solid white; /* Optional: Add a border for visual reference */
     padding: 20px; /* Optional: Add padding to the form for spacing */
     margin: left; /* Optional: Center the form horizontally on the page */
   }
   
   
   
-=======
 
-
->>>>>>> c9b3865c93055f9b0ea66704b1fa8a9207e6d43a
   

@@ -7,7 +7,7 @@ import Footer from '../../component/molecules/Footer';
 const Transportation = () => {
   // Define the showAlert function within the component
   const showAlert = () => {
-    alert("Your form has been submitted.");
+    alert("You have successfully submitted");
   };
 
   return (

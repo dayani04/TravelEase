@@ -4,7 +4,7 @@ import NavBar from "../../component/molecules/NavBar";
 const Hotel = () => {
   // Define the showAlert function within the component
   const showAlert = () => {
-    alert("Your form has been submitted.");
+    alert("You have successfully submitted");
   };
 
     return(

@@ -15,7 +15,7 @@ const Home = () => {
   <div class="carousel-item active" data-bs-interval="10000">
   <h1 style={{ color: 'skyblue', fontWeight: 'bold', fontSize: '100px' }}>TravelEase</h1>
   
-    <img src="https://i.pinimg.com/564x/c8/28/51/c8285195e37daec951e4c68803b7a13e.jpg" class="d-block w-100 increased-width" alt="..." />
+    <img src="https://th.bing.com/th/id/OIP.SrEOaQR1cSecipwlKvXw_QD6D6?pid=ImgDet&rs=1" class="d-block w-100 increased-width" alt="..." />
     
     <div class="carousel-caption d-none d-md-block"> <br /> <br /> 
   

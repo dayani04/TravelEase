@@ -5,7 +5,7 @@ import './index.css';
 import Footer from '../../component/molecules/Footer';
 
 const Transportation = () => {
-  // Define the showAlert function within the component
+  
   const showAlert = () => {
     alert("You have successfully submitted");
   };

@@ -2,11 +2,14 @@ import Footer from '../../component/molecules/Footer';
 import './index.css';
 import NavBar from "../../component/molecules/NavBar";
 
+
 const Hotel = () => {
   // Define the showAlert function within the component
   const showAlert = () => {
     alert("Your form has been submitted.");
   };
+
+
     return(
       <div> <NavBar/> <br/> <br/>
       <h1> SELECT YOUR HOTEL </h1>
@@ -372,6 +375,9 @@ const Hotel = () => {
   <label for="nameInput" class="form-label">Number of Days stay the hotel</label>
   <input type="text" class="form-control custom-input-width" id="nameInput" aria-describedby="nameHelp" placeholder="Enter your Days"/>
 </div>
+
+
+
 <div class="mb-3">
 <label for="disabledSelect" class="form-label">Payment Method</label>
 <select id="disabledSelect" class="form-select custom-select-width">
@@ -390,6 +396,9 @@ Submit
       <Footer/>
 </div>
 </div>
+
     );
+    
+
 }
 export default Hotel;

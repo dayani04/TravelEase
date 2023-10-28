@@ -17,25 +17,27 @@
 
 }
 .custom-text {
-  color: midnightblue;
+  color: white;
 }
 
 
 .container {
-  background-color: skyblue; 
+  background-color: black; 
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color:midnightblue;
+  color:white;
 }
 body {
   margin: 0; 
   padding: 0; 
-  background-color: skyblue; 
-  color: midnightblue; 
+  background-color: black; 
+
+  color: white; 
+
 }
 
 

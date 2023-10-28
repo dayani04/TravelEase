@@ -1,4 +1,3 @@
-
 const NavItems=({path,name})=>{
     return (
        <div> <li className="nav-item">

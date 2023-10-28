@@ -1,0 +1,39 @@
+.card{
+    width: 300px;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+
+    font-size: 10px;
+}
+@media(min-width: 600px){
+    .card{
+        width: 200;
+        height: 200;
+    }
+    
+}
+.card-img-top{
+  align-items: center;
+}
+.Hotel{
+    align-content: center;
+}
+
+.custom-input-width {
+    width: 500px; /* Adjust the width as needed */
+  }
+  .custom-select-width {
+    width: 500px; /* Adjust the width as needed */
+  }
+  .custom-form {
+    width: 600px; /* Change the width to your preferred value */
+    border: 5px solid white; /* Optional: Add a border for visual reference */
+    padding: 20px; /* Optional: Add padding to the form for spacing */
+    margin: left; /* Optional: Center the form horizontally on the page */
+  }
+  
+  
+  
+
+  

@@ -1,0 +1,40 @@
+/* CSS file */
+.text-center {
+
+  text-align: center;
+}
+
+.content {
+  float: left; /* Float the content to the left */
+  width: 50%; /* Set the content width */
+}
+
+.image-container {
+  float: right; /* Float the image to the right */
+  width: 50%;
+  align-items: right; /* Set the image width */
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto; /* Maintain image aspect ratio */
+}
+/* CSS */
+.increased-width {
+  width: 1000px; /* Adjust the width as needed */
+}
+/* CSS */
+
+/* CSS */
+.h3-text-color {
+  color: white; /* Replace 'blue' with your desired font color */
+}
+
+.p-text-color {
+  color: lightgoldenrodyellow; /* Replace 'red' with your desired font color */
+}
+.carousel-dark 
+{
+  height: 60vh;
+}
+

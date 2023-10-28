@@ -9,6 +9,7 @@ import Hotel from './pages/Hotel';
 import Transpotation from './pages/Transpotation';
 
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
+
 function App() {
   return (
     <div className="container">
@@ -17,7 +18,7 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/Location" element={<Location/>}/>
         <Route path="/Hotel" element={<Hotel/>}/>
-        <Route path="/Transpotation" element={<Transpotation/>}/>
+        <Route path="/Transpotation" element={<Transpotation/>} />   
       </Routes>
       </BrowserRouter>
     </div>

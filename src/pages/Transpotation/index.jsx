@@ -3,9 +3,11 @@ import NavBar from '../../component/molecules/NavBar';
 import './index.css';
 import Footer from '../../component/molecules/Footer';
 
+
 const Transportation = () => {
   // Define the showAlert function within the component
   const showAlert = () => {
+
     alert("You have successfully submitted");
   };
 
@@ -200,7 +202,6 @@ Submit
  </button>
 </div>
 </form>
-
 <br /> <br />
 <Footer/>
     </div>

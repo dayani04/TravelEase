@@ -1,3 +1,4 @@
+
 import Footer from '../../component/molecules/Footer';
 import './index.css';
 import NavBar from "../../component/molecules/NavBar";

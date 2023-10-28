@@ -1,7 +1,7 @@
+import React from "react";
 import Footer from "../../component/molecules/Footer";
 import NavBar from "../../component/molecules/NavBar";
 const Home = () => {
-
     return (    
 
 <div id="carouselExampleDark" class="carousel carousel-dark slide">

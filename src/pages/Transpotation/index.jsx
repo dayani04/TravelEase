@@ -189,6 +189,7 @@ const Transportation = () => {
   <input type="text" class="form-control custom-input-width" id="nameInput" aria-describedby="nameHelp" placeholder="Enter your Days"/>
 </div>
 
+
 <div class="mb-3">
 <label for="disabledSelect" class="form-label">Payment Method</label>
 <select id="disabledSelect" class="form-select custom-select-width">
@@ -208,3 +209,4 @@ Submit
   );
 }
 export default Transportation;
+

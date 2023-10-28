@@ -1,4 +1,4 @@
-
+import React from "react";
 import NavBar from "../../component/molecules/NavBar"
 import'./index.css';
 import Footer from "../../component/molecules/Footer";
@@ -164,6 +164,7 @@ const Location = () => {
 <Footer />
 </div>
 </div>
+
     );
 }
 export default Location;

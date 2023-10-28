@@ -9,10 +9,8 @@ const Location = () => {
   };
 
     return (
-
       <div> <NavBar/> <br /><br />
       <h1>SELECT YOUR AMAZING TRAVEL LOCATION</h1>
-
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card">
@@ -160,6 +158,7 @@ const Location = () => {
     </div>
 
     </div>
+
 <Footer />
 </div>
 </div>

@@ -2,7 +2,7 @@ import NavItems from "../../atoms/NavItems";
 import React from "react";
 
 
-const NavBar = () => {
+function NavBar() {
     return (
         <nav class="navbar navbar-expand-lg navbar-dark custom-bg fixed-top">
             <div className="container-fluid">
@@ -12,12 +12,12 @@ const NavBar = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                
+
                         <NavItems name={'Home'} path={'/'} />
-                        <NavItems name={'Location'} path={'/Location'} />  
+                        <NavItems name={'Location'} path={'/Location'} />
                         <NavItems name={'Hotel'} path={'/Hotel'} />
                         <NavItems name={'Transpotation'} path={'/Transpotation'} />
-                        
+
                     </ul>
                     <form className="d-flex" role="search">
                         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import NavBar from '../../component/molecules/NavBar';
 import './index.css';
@@ -207,6 +206,4 @@ Submit
     </div>
   );
 }
-
 export default Transportation;
-

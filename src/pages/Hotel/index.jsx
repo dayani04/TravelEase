@@ -2,7 +2,7 @@ import Footer from '../../component/molecules/Footer';
 import './index.css';
 import NavBar from "../../component/molecules/NavBar";
 const Hotel = () => {
-  // Define the showAlert function within the component
+ 
   const showAlert = () => {
     alert("You have successfully submitted");
   };
